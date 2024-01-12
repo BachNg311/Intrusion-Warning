@@ -4,10 +4,10 @@ from imutils.video import VideoStream
 from yolodetect import YoloDetect
 
 video = VideoStream(src=0).start()
-# Chua cac diem nguoi dung chon de tao da giac
+# List the points chosen by users to create Polygon
 points = []
 
-# new model Yolo
+# New model Yolo
 model = YoloDetect()
 
 
